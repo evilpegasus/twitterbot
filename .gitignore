@@ -336,3 +336,6 @@ ASALocalRun/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+
+#Reading in Auth keys from another file
+keys.txt

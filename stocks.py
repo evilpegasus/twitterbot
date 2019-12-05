@@ -9,6 +9,4 @@ def stock_info(ticker):
     open_price = data["Open"]
     close_price = data['Close']
     change = close_price - open_price
-    return change
-
-print(stock_info("TSLA"))
+    return open_price[0], close_price[0], change[0]

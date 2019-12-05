@@ -1,6 +1,8 @@
 import tweepy
 import random
 
+import stocks
+
 
 #read API keys and tokens from "keys" file
 #use rstrip to remove newline from strings

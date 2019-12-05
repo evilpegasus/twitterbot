@@ -5,7 +5,7 @@ from datetime import date
 
 def stock_info(ticker):
     today = date.today()
-    data = yf.download(ticker, start=today, end=today, group_by="ticker")
+    data = yf.download(ticker, start=today, end=today)
     open_price = data["Open"]
     close_price = data['Close']
     change = close_price - open_price

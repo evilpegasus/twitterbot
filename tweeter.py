@@ -33,7 +33,7 @@ print(api.me().name)
 #     count += 1
 
 #send a tweet
-ticker = "TSLA"
+ticker = "MSFT"
 if stocks.stock_info(ticker)[2] > 0:
     change = "up"
 elif stocks.stock_info(ticker)[2] < 0:
